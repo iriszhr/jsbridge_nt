@@ -20,7 +20,9 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "rollup -c rollup.config.ts"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-json": "^4.0.2",
