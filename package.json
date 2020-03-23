@@ -1,25 +1,33 @@
 {
-    "name": "jsbridge_nt",
-    "version": "1.0.0",
-    "description": "",
-    "keywords": ["jsBridge", "bridge"],
-    "files": [
-      "dist"
-    ],
-    "author": "iriszhr <iriszhr@126.com>",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/iriszhr/jsbridge_nt.git"
-    },
-    "license": "MIT",
-    "engines": {
-      "node": ">=6.0.0"
-    },
-    "scripts": {
-      
-    },
-    "devDependencies": {
-        "md5": "^2.2.1"
-    }
+  "name": "jsbridge_nt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/NTBridge.umd.js",
+  "module": "dist/NTBridge.es5.js",
+  "keywords": [
+    "jsBridge",
+    "bridge"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "iriszhr <iriszhr@126.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iriszhr/jsbridge_nt.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "lodash.camelcase": "^4.3.0",
+    "md5": "^2.2.1",
+    "rollup": "^2.1.0",
+    "rollup-plugin-sourcemaps": "^0.5.0"
   }
-  
+}
