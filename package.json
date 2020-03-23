@@ -1,0 +1,25 @@
+{
+    "name": "jsbridge_nt",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": ["jsBridge", "bridge"],
+    "files": [
+      "dist"
+    ],
+    "author": "iriszhr <iriszhr@126.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/iriszhr/jsbridge_nt.git"
+    },
+    "license": "MIT",
+    "engines": {
+      "node": ">=6.0.0"
+    },
+    "scripts": {
+      
+    },
+    "devDependencies": {
+        "md5": "^2.2.1"
+    }
+  }
+  
